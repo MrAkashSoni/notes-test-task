@@ -1,0 +1,58 @@
+.note-form {
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 5px solid #6874e8;
+    height: auto;
+    margin: 1rem;
+    box-shadow: 0 100px 80px #2b467412, 0 41.7776px 33.4221px #2b46740d, 0 22.3363px 17.869px rgba(43, 70, 116, .042), 0 12.5216px 10.0172px rgba(43, 70, 116, .035), 0 6.6501px 5.32008px rgba(43, 70, 116, .028), 0 2.76726px 2.21381px #2b467405;
+    ;
+}
+
+.note-label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.input-text,
+.input-area {
+    display: block;
+    margin-bottom: 1.5rem;
+    border: 0;
+    border-bottom: 5px solid #6874e8;
+    background-color: #bfc6ff;
+    padding: 1rem 1rem;
+    color: #000;
+    font-size: 1rem;
+    min-width: 300px;
+    outline: none;
+}
+
+.input-text:disabled,
+.input-area:disabled {
+    cursor: not-allowed;
+}
+
+@media screen and (max-width: 768px) {
+
+    .input-text,
+    .input-area {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .input-text,
+    .input-area {
+        width: auto;
+        min-width: 100%;
+    }
+
+    .form-container {
+        width: 100%;
+    }
+
+    .note-form {
+        margin: 0;
+    }
+}
